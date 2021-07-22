@@ -8,5 +8,6 @@ Previous research has shown that ECoG signals recorded from subjects moving a jo
 As a part of the spectral analysis, I will calculate the power spectral density for each voltage channel. The spectral frequency has been categorised into seven bands - 8–12 Hz, 18–24 Hz (beta), 35–42 Hz, 42–70 Hz, 70–100 Hz, 100–140 Hz, 140–190 Hz  in the mu, beta and gamma frequency bands, similar to those used in [2]. Following this, I will calculate kinematic variables like position and velocity of the cursor. Then I will correlate these variables with the features extracted from the neural data. I will fit a simple linear regression model in order to do so. If this model performs poorly, I will go on to use sophisticated machine learning models to predict the kinematics of the cursor from the neural data. These analyses will provide yet another method that can be used in training BCIs.
 
 **References:**
+
 [1] G Schalk et al 2007 J. Neural Eng. 4 264
 [2] Encoding of Movement Direction in Different Frequency Ranges of Motor Cortical Local Field Potentials Jörn Rickert, Simone Cardoso de Oliviera, Eilon Vaadia, Ad Aertsen, Stefan Rotter, Carsten Mehring Journal of Neuroscience 28 September 2005, 25 (39) 8815-8824.
