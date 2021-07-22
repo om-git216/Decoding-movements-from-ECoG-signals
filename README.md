@@ -1,1 +1,1 @@
-# Decoding-movements-from-ECoG-signals
+# Decoding movements from ECoG signals
