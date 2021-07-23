@@ -19,3 +19,8 @@ As a part of the spectral analysis, I will calculate the power spectral density 
 1. Use a spectral analysis to extract frequency features from the data. Divide the data into four frequency bands - 42–70 Hz, 70–100 Hz, 100–140 Hz, 140–190 Hz and calculate the average power of each spectrum. 
 2. Extract features from the cursor positions (X-position of the cursor).
 3. Train a Linear Regression model with Lasso regularisation to predict cursor positions from neural data. 
+
+**Results:**
+
+1. Linear Models with Lasso regularisation fit the data better than those without Lasso Regularisation. 
+2. The space of non linear models that can be fit to data is smaller than what was believed earlier. 
