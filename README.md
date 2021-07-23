@@ -2,7 +2,7 @@
 
 Dataset used: ECoG data collected by the Kai Miller group at University of California, San Diego. This data has been used by Gerwin Schalk in the following paper:Schalk, G., et al. "Decoding two-dimensional movement trajectories using electrocorticographic signals in humans." Journal of neural engineering 4.3 (2007): 264.  
 
-Here I will try to use the ECoG data to decode the kinematics of the cursor from the neural data. 
+Here I wil use the ECoG data to try to decode the kinematics of the cursor from the neural data. 
 
 **Abstract:**
 
