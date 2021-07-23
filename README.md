@@ -1,6 +1,6 @@
 # Decoding movements from ECoG signals
 
-Dataset used: ECoG data collected by the Kai Miller group at University of California, San Diego. This data has been used by Gerwin Schalk in the following paper:Schalk, G., et al. "Decoding two-dimensional movement trajectories using electrocorticographic signals in humans." Journal of neural engineering 4.3 (2007): 264.
+Dataset used: ECoG data collected by the Kai Miller group at University of California, San Diego. This data has been used by Gerwin Schalk in the following paper:Schalk, G., et al. "Decoding two-dimensional movement trajectories using electrocorticographic signals in humans." Journal of neural engineering 4.3 (2007): 264.  
 
 Here I will try to use the ECoG data to decode the kinematics of the cursor from the neural data. 
 
@@ -13,3 +13,9 @@ As a part of the spectral analysis, I will calculate the power spectral density 
 
 [1] G Schalk et al 2007 J. Neural Eng. 4 264
 [2] Encoding of Movement Direction in Different Frequency Ranges of Motor Cortical Local Field Potentials Jörn Rickert, Simone Cardoso de Oliviera, Eilon Vaadia, Ad Aertsen, Stefan Rotter, Carsten Mehring Journal of Neuroscience 28 September 2005, 25 (39) 8815-8824.
+
+**Methodology:**
+
+1. Use a spectral analysis to extract frequency features from the data. Divide the data into four frequency bands - 42–70 Hz, 70–100 Hz, 100–140 Hz, 140–190 Hz and calculate the average power of each spectrum. 
+2. Extract features from the cursor positions (X-position of the cursor).
+3. Train a Linear Regression model with Lasso regularisation to predict cursor positions from neural data. 
